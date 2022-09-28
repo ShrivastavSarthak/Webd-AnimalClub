@@ -1,0 +1,24 @@
+<%- include("header") %>
+
+    <div class="forAll">
+        <center>
+            <div class="loginpg">
+                <form action="/login" method="POST">
+                    <h1 class="login">Login</h1>
+                    <input type="email" class="form-control loginbox" name="email" id="email" placeholder="Your Email" required>
+                    <input type="password" class="form-control loginbox" name="password" id="Password" placeholder="Password" required>
+                    <a class="forget" href="">forget password</a>
+                    <button type="submit" class="loginbutton btn btn-outline-success ">login</button>>
+                </form>
+
+                <h6 class="noacc">Don't have already account</h6>
+                <a class="registerlink" href="register" role="link">Register here</a>
+            </div>
+        </center>
+    </div>
+
+
+
+
+
+    <%- include("footer") %>

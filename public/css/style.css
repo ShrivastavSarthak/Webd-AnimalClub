@@ -1,0 +1,286 @@
+/* //////////////////////////////////// USE IN ALL PAGES ////////////////////////////////////////////////////// */
+
+.forAll {
+    padding: 2.5rem;
+    background-color: #525e75;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    color: #92ba92;
+}
+
+h1 {
+    color: #78938a;
+    font-weight: bolder;
+}
+
+h2 {
+    color: #78938a;
+}
+
+h3 {
+    color: #78938a;
+}
+
+h6 {
+    color: #78938a;
+}
+
+
+/*/////////////////////////////////////// NAV BAR ///////////////////////////////////////////// */
+
+.navbar {
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+}
+
+.logbutton {
+    padding-right: 2.5rem;
+}
+
+
+/*/////////////////////////////////////////////////// HOME //////////////////////////////////////// */
+
+.bodyheading {
+    font-size: 5.625rem;
+}
+
+.mainImg {
+    width: 65%;
+    padding: 0.625rem;
+    border-radius: 1.5625rem;
+}
+
+.quotes {
+    font-weight: bolder;
+}
+
+hr {
+    border: dotted #EAF6F6 0.375rem;
+    border-bottom: none;
+    width: 4%;
+    margin: 6.25rem auto 6.25rem auto;
+}
+
+h2 {
+    font-size: 3.75rem;
+    font-weight: bolder;
+}
+
+.image {
+    width: 15%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 3.125rem;
+    margin-bottom: 0.625rem;
+}
+
+.card {
+    background-color: black;
+    width: 16.875rem;
+    height: 25rem;
+    margin: 1.25rem;
+    border-radius: 0.9375rem;
+}
+
+.card-images {
+    height: 21.875rem;
+    margin-bottom: 0.3125rem;
+    background-size: cover;
+    border-top-left-radius: 0.9375rem;
+    border-top-right-radius: 0.9375rem;
+}
+
+.zoo {
+    background-image: url('/images/imageOne.jpg');
+}
+
+.rescue {
+    background-image: url('/images/imagetwo.jpg');
+}
+
+.career {
+    background-image: url('/images/imagethree.jpg');
+}
+
+.Ancor {
+    width: 16.875rem;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+    border-bottom-left-radius: 0.9375rem;
+    border-bottom-right-radius: 0.9375rem;
+}
+
+.Suggestion {
+    padding-bottom: 1.25rem;
+}
+
+.formcard {
+    background-color: black;
+    width: 75rem;
+    height: 21.875rem;
+    margin: 1.25rem;
+    border-radius: 0.9375rem;
+    margin-top: 1.25rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.formname {
+    padding-top: 0.625rem;
+    padding-left: 1.875rem;
+}
+
+.formemail {
+    padding-top: 0.625rem;
+    padding-right: 1.875rem;
+}
+
+.formsubject {
+    padding-top: 0.625rem;
+    padding-left: 1.0625rem;
+    padding-right: 1.0625rem;
+}
+
+.formmessage {
+    padding-top: 0.625rem;
+    padding-left: 1.0625rem;
+    padding-right: 1.0625rem;
+}
+
+#name {
+    background-color: transparent;
+    outline-color: #525e75;
+    color: #92ba92;
+}
+
+#email {
+    background-color: transparent;
+    outline-color: #525e75;
+    color: #92ba92;
+}
+
+#subject {
+    background-color: transparent;
+    outline-color: #525e75;
+    color: #92ba92;
+}
+
+#message {
+    background-color: transparent;
+    outline-color: #525e75;
+    color: #92ba92;
+}
+
+button {
+    margin-top: 1.25rem;
+}
+
+
+/* /////////////////////////////////////////////////////////// FOOTER /////////////////////////////////////////////////// */
+
+.upperfooter {
+    background-color: #92ba92;
+}
+
+.lowerfooter {
+    background-color: #78938a;
+}
+
+
+/* //////////////////////////////////////////////////////////// ANIMAL CSS ////////////////////////////////////////////// */
+
+.animalheading {
+    padding-bottom: 1.25rem;
+}
+
+.container2 {
+    padding-top: 1.25rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.animalCard {
+    height: 18.75rem;
+    width: 12.5rem;
+    background-color: black;
+    margin: 0.625rem;
+    padding-bottom: 1.25rem;
+    border-radius: 0.9375rem;
+    overflow: hidden;
+}
+
+.gridimages {
+    height: 16.25rem;
+    width: 12.5rem;
+}
+
+.animalButton {
+    width: 12.5rem;
+    height: 2.5rem;
+    border-style: hidden;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+    border-bottom-left-radius: 0.9375rem;
+    border-bottom-right-radius: 0.9375rem;
+}
+
+
+/* ////////////////////////////////////////////////////////////////// ABOUT US /////////////////////////////////////////////  */
+
+.AboutUS {
+    padding-bottom: 1.25rem;
+    font-size: 4.375rem;
+    font-weight: bolder;
+}
+
+
+/*  //////////////////////////////////////////////////////////////////// LOGIN AND REGISTER ////////////////////////////////// */
+
+.loginpg {
+    background: #000;
+    height: 37.5rem;
+    width: 25rem;
+    padding-bottom: 2.5rem;
+    border-radius: 0.9375rem;
+}
+
+.login {
+    margin-top: 3.125rem;
+    margin-bottom: 4.375rem;
+    font-size: 5.625rem;
+    padding-top: 2.5rem;
+}
+
+.loginbox {
+    margin-bottom: 0.9375rem;
+    width: 18.75rem;
+    color: #92ba92;
+}
+
+.forget {
+    margin-left: -11.125rem;
+    color: #525e75;
+    position: relative;
+}
+
+.loginbutton {
+    margin-top: 1.875rem;
+}
+
+.noacc {
+    margin-top: 1.25rem;
+}
+
+.registerlink {
+    color: #525e75;
+}

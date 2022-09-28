@@ -1,0 +1,68 @@
+<%- include('header')  %>
+    <div class="forAll">
+        <center>
+            <div>
+                <h1 class="bodyheading">Welcome to the Animal club </h1>
+                <div class="slider">
+                    <img class="mainImg" src="/images/mainImg1.jpg" alt="tiger img">
+                </div>
+                <p class="quotes">"The greatness of a nation and its moral progress can be judged by the way its animals are treated."</p>
+            </div>
+            <hr>
+            <h2>Our work</h2>
+            <section class="container">
+                <div class="card">
+                    <div class="card-images zoo g-col-6 g-col-md-4"></div>
+                    <h3>Top zoo in India </h3>
+                    <a class="Ancor btn btn-outline-success" href="zoo">READ MORE</a>
+
+                </div>
+                <div class="card">
+                    <div class="card-images rescue g-col-6 g-col-md-4">
+                    </div>
+                    <h3>Rescue</h3>
+                    <a class="Ancor btn btn-outline-success" href="rescue">READ MORE</a>
+
+                </div>
+                <div class="card">
+                    <div class="card-images career g-col-6 g-col-md-4"></div>
+                    <h3>Career</h3>
+                    <a class="Ancor btn btn-outline-success" href="career">READ MORE</a>
+
+                </div>
+            </section>
+            <hr>
+
+            <h2 class="Suggestion">Suggestion Box</h2>
+
+            <form class="formcard" action="/home" method="post">
+                <div class="row">
+                    <div class="formname col-md-6 form-group">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="formemail col-md-6 form-group mt-3 mt-md-0">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                    </div>
+                </div>
+                <div class="formsubject form-group mt-3">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                </div>
+                <div class="formmessage form-group mt-3">
+                    <textarea class="form-control" name="message" id="message" rows="5" placeholder="Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-outline-success">Submit</button>
+
+            </form>
+
+
+
+
+
+
+    </div>
+    </div>
+    </center>
+    </div>
+
+
+    <%- include("footer") %>
