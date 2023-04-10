@@ -21,8 +21,8 @@ app.use(express.static("public"))
 
 // ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-const db = mongoose.createConnection("mongodb+srv://Sarthak:1234@cluster0.12szh4h.mongodb.net/animalDB")
-const suggestion = mongoose.createConnection("mongodb+srv://Sarthak:1234@cluster0.12szh4h.mongodb.net/suggestionDB")
+const db = mongoose.createConnection("use your Database")
+const suggestion = mongoose.createConnection("use your Suggestion url")
 
 const User = db.model("User", new mongoose.Schema({
     email: String,
